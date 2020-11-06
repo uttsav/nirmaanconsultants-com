@@ -2908,6 +2908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* added by me */
 @media (min-width: 1200px){
 .container {
+  max-width:90% !important;
   width :90% !important;
 }
 }
