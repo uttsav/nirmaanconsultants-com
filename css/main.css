@@ -2268,7 +2268,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767.98px) {
   .banner-area .fullscreen {
-    height: 700px !important;
+    height: 0px !important;
+  }
+  #header{
+    background: rgba(34, 34, 34, 0.9);
   }
 }
 
@@ -2911,4 +2914,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width:90% !important;
   width :90% !important;
 }
+}
+.setHeight{
+  height: 0px !important;
 }
