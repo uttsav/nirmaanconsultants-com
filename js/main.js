@@ -151,7 +151,7 @@ $(document).ready(function(){
                 items: 2,
             },
             1281:{
-                items:4,
+                items:3,
             }  
         }
     });
@@ -163,7 +163,7 @@ $(document).ready(function(){
 
     $('.active-testimonial').owlCarousel({
         items:2,
-        loop:true,
+        loop:false,
         margin: 30,
         dots: true,
         autoplay:true,

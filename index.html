@@ -33,12 +33,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 		<style>
-			.mySlides {
+			/* .mySlides {
 				display: none;
 			}
 			.mySlides1 {
 				display: none;
-			}
+			} */
 		</style>
 
 	
@@ -79,14 +79,12 @@
 			<section class="banner-area relative backgroundChange" id="home" data-parallax="scroll">
 
 				<div class="d-none d-sm-block">
-					<img class="mySlides" src="img/aadarsh_header.jpg" style="width:100%">
+					<!-- <img class="mySlides" src="img/aadarsh_header.jpg" style="width:100%"> -->
 					<img class="mySlides" src="img/hero_1.jpg" style="width:100%">
-					<img class="mySlides" src="img/hero1_copy1.jpg" style="width:100%">
+					<!-- <img class="mySlides" src="img/hero1_copy1.jpg" style="width:100%"> -->
 				  </div>
 				  <div class="d-block d-sm-none" style="padding-top: 125px;">
-					<img class="mySlides1" src="img/p1.jpg" style="width:100%">
-					<img class="mySlides1" src="img/p2.jpg" style="width:100%">
-					<img class="mySlides1" src="img/s1.jpg" style="width:100%">
+					<img class="mySlides" src="img/hero_1.jpg" style="width:100%">
 				  </div>
 			<!-- <div class="overlay-bg overlay"></div> -->
 			<div class="container">
@@ -238,7 +236,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="single-project" style="background: url(img/p4.jpg);">
+							<div class="single-project" style="background: url(img/p41.jpg);">
 								<!-- <div class="overlay overlay-content">
 										<h1>Alex Complex for <br> esidence</h1>
 										<p>
@@ -248,7 +246,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="single-project" style="background: url(img/p1.jpg);">
+							<div class="single-project" style="background: url(img/IMG-5184_1.jpg);">
 								<!-- <div class="overlay overlay-content">
 										<h1>Alex Complex for <br> esidence</h1>
 										<p>
@@ -268,7 +266,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="single-project" style="background: url(img/s1.jpg);">
+							<div class="single-project" style="background: url(img/swara.jpg);">
 								<!-- <div class="overlay overlay-content">
 										<h1>Alex Complex for <br> esidence</h1>
 										<p>
@@ -278,7 +276,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<div class="single-project" style="background: url(img/p4.jpg);">
+							<div class="single-project" style="background: url(img/p41.jpg);">
 								<!-- <div class="overlay overlay-content">
 										<h1>Alex Complex for <br> esidence</h1>
 										<p>
@@ -696,35 +694,35 @@
 		<script src="js/main.js"></script>
 		<script>
 			
-			var myIndex = 0;
-			var myIndexM = 0;
-			carousel();
-			carouselM();
+			// var myIndex = 0;
+			// var myIndexM = 0;
+			// carousel();
+			// carouselM();
 
-			function carousel() {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			}
-			myIndex++;
-			if (myIndex > x.length) {myIndex = 1}    
-			x[myIndex-1].style.display = "block";  
-			setTimeout(carousel, 5000); // Change image every 5 seconds
-			}
+			// function carousel() {
+			// var i;
+			// var x = document.getElementsByClassName("mySlides");
+			// for (i = 0; i < x.length; i++) {
+			// 	x[i].style.display = "none";  
+			// }
+			// myIndex++;
+			// if (myIndex > x.length) {myIndex = 1}    
+			// x[myIndex-1].style.display = "block";  
+			// setTimeout(carousel, 5000); // Change image every 5 seconds
+			// }
 
 
-			function carouselM() {
-			var j;
-			var y = document.getElementsByClassName("mySlides1");
-			for (j = 0; j < y.length; j++) {
-				y[j].style.display = "none";  
-			}
-			myIndexM++;
-			if (myIndexM > y.length) {myIndexM = 1}    
-			y[myIndexM-1].style.display = "block";  
-			setTimeout(carouselM, 5000); // Change image every 2 seconds
-			}
+			// function carouselM() {
+			// var j;
+			// var y = document.getElementsByClassName("mySlides1");
+			// for (j = 0; j < y.length; j++) {
+			// 	y[j].style.display = "none";  
+			// }
+			// myIndexM++;
+			// if (myIndexM > y.length) {myIndexM = 1}    
+			// y[myIndexM-1].style.display = "block";  
+			// setTimeout(carouselM, 5000); // Change image every 2 seconds
+			// }
 
 
 
